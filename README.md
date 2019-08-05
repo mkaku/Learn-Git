@@ -36,11 +36,26 @@
 ### Git branch -d
 * ``git branch -d <ma_branche>`` permet de supprimer la branche "ma_branche".
 
+## Git status
+* ``git status`` permet de voir le status de votre branche: les fichiers et dossiers crées/supprimés/modifiés que vous devez rajouter grâce à ``git add``.
+
+## Git add
+* ``git add <chemin>`` permet de rajouter un dossier ou fichier dans la liste gérée par git.
+* ``git add .`` rajoute absolument tout ce qui a été modifiés.
+
+> Avant de commit vous devez préalablement faire ``git add <chemin>`` ou ``git add .``
+
 ## Git commit
 * Un commit représente les modifications que vous avez apportés à une branche.
 * Après avoir fini une modification, vous entrez ``git commit``, git va alors enregistrer ces modifications et vous pourrez y revenir plus tard.
 
 > ``git commit`` va enregistrer un commit sans titre, il est recommendé d'en mettre. Exemple: ``git commit -m "Added text.txt"``.
+
+### Git commit -a
+* Si vous n'avez fait que modifier un fichier sans en supprimer/créer, vous n'avez pas besoin de faire un ``git add`` avant de commit.
+* Vous pouvez dirrectement faire ``git commit -a`` qui est l'équivalent d'un ``git add`` suivi d'un ``git commit``. Cependant ça ne marche uniquement si vous n'avez fait que modifier vos fichiers, si vous en avez supprimé/crée il vous faudra d'abord faire un ``git add`` manuellement.
+
+> Pour rajouter un titre vous pouvez faire ``git commit -am "<titre>"``.
 
 ## Git merge
 * Merger, une branche A dans une branche B signifie en fait de porter les commits de la branche A dans la B et ainsi garder une cohésion entre vos branches.
