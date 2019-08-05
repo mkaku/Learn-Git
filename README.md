@@ -73,10 +73,10 @@ Date:   Mon Aug 5 16:15:23 2019 +0300
 ```
 
 ## Git pull
-* On entre dans la partie intérressante car la commande ``git pull <remote> <branche>`` permet de transférer les commits vers le remote spécifié dans la branche renseignée.
+* On entre dans la partie intérressante car la commande ``git pull <remote> <branche>`` permet de transférer les commits de la branche du remote vers votre répertoire en local.
 
 ## Git push
-* ``git push <remote> <branche>`` fait l'inverse de git pull, elle transfère les modifications apportées au remote vers votre répertoire local.
+* ``git push <remote> <branche>`` fait l'inverse de git pull, elle transfère les modifications apportées en local vers le remote
 
 # Autres
 
