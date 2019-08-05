@@ -69,6 +69,8 @@
 * Mais git checkout permet aussi de se placer dans un commit antérieur à votre branche et d'ainsi revenir à une version précise de votre projet.
 * Pour cela, placez-vous dans la branche voulue et rentrer ``git checkout <SHA_du_commit>``. En bas, vous verrez comment obtenir ce sha
 
+> Il est possible de créer une branche puis de s'y placer avec une seule commande: ``git checkout -b <branche>``.
+
 ## Git log
 * ``git log`` permet de voir la liste des commits faits dans votre branche affichée ainsi:
 ```
