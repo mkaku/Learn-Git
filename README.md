@@ -59,10 +59,10 @@
 
 ## Git merge
 * Merger, une branche A dans une branche B signifie en fait de porter les commits de la branche A dans la B et ainsi garder une cohésion entre vos branches.
-* Pour cela, imaginons que vous avez deux branches, ``A`` et ``B``. Vous avez modifié un fichier dans B et maintenant vous voulez porter ces modifications vers votre branche A.
+* Pour cela, imaginons que vous avez deux branches, ``A`` et ``B``. Vous avez modifié un fichier dans A et maintenant vous voulez porter ces modifications vers votre branche B.
 
-* I) Placez-vous dans votre branche A
-* II) Rentrez ``git merge B``
+* I) Placez-vous dans votre branche B
+* II) Rentrez ``git merge A``
 
 ## Git checkout
 * Nous avons parlé plus haut de se placer sur une branche, voilà comment on fait ``git checkout <branche>``.
